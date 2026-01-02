@@ -494,9 +494,9 @@ body{{margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI'
                         format!("• {}", lead.company_type).bright_cyan()
                     );
                     println!("      {} {} {} {}",
-                        format!("📍 {}", lead.country).bright_yellow(),
+                        format!(" {}", lead.country).bright_yellow(),
                         "•".bright_black(),
-                        format!("📧 {}", lead.email).bright_green(),
+                        format!(" {}", lead.email).bright_green(),
                         "".bright_black()
                     );
                     
